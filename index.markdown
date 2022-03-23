@@ -4,3 +4,6 @@
 
 layout: home
 ---
+# Vocal Exploration
+
+# Explore, Express; Expand, Embody 
