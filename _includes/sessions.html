@@ -1,0 +1,16 @@
+<!-- Sessions -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].sessions.section | default: "services" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <h2>{{ site.data.sitetext[site.locale].sessions.title | default: "testimonials" }}</h2>
+            </div> 
+            <div class="col-lg-6 mx-auto text-left">
+                  <p>{{ site.data.sitetext[site.locale].sessions.list[0].text | markdownify }}</p>
+                  <p>{{ site.data.sitetext[site.locale].sessions.list[1].text | markdownify }}</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Sessions -->

@@ -1,0 +1,85 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Vocal Exploration
+    text: Explore, Express; Expand, Embody
+    button: Begin your Journey
+    buttonlink: "#services"
+
+  services:
+    title: "Services"
+    text: "Voice Movement Therapy"
+    section: services
+    list:
+      - desc: "Voice Movement Therapy (VMT) is an expressive arts therapy working with the links between the breath, voice, physicality, and psyche. Our stories are held in our voices, in our bodies; VMT gives us a container to explore and express, expand and embody. VMT offers a non-judgmental approach to voice work and does not categorize voices using typical Westernized vocal categories, exploring instead the wide range of human sound in a therapeutic setting. For more info, visit the International Association of Voice Movement Therapy."
+        # title: "Philosophy1"
+        # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - desc: "My philosophy is rooted in finding the connection points between our bodies and our voice, and how we can use them to gain deeper understanding of ourselves. The power of movement to help our voices move. The power of play to open up our joy.  This work is for everyone. Whether you’re looking to build your confidence, expand your abilities, work through your blockages, or simply have fun with song; my goal is for singing to feel good. "
+        # title: "Philosophy2"
+        # icon: fas fa-laptop
+
+  about:
+    title: "About Brianna"
+    # text: "our story"
+    body: "Brianna (she/they) is a lifelong performer and visual artist who combines voicework with physical theater and multimedia storytelling. She has sung, danced, and acted in a variety of shows all over MA, while continuing to devise new pieces both solo and with their movement collective. She has trained intensively with Double Edge Theater, and is currently in supervision as a provisional practitioner of Voice Movement Therapy."
+    body_2: "I found VMT as a teenager, and was astonished by the lengths to which my voice could go. It gave me a container that shaped my performance, my art, and how I moved in the world; it showed me how to build confidence in myself, and taught me to keep exploring. I had joined for the vocal instruction, but quickly found the therapeutic benefits invaluable. I went to as many sessions as I possibly could, and was thrilled when my chance to train as a practitioner finally rolled around in 2019. The training further solidified my love for this work, and I’m thrilled to share it with you."
+    section: about
+  
+  sessions:
+    title: "Sessions"
+    section: sessions
+    list:
+      - text: "Sessions are unique to each individual, starting from exactly where you are. We’ll spend time with the breath, the body in gentle movement, and slowly open up our vocal tube. We’ll pull in guided imagery, drawing, writing, and simple song-making, with plenty of play and laughter, to strengthen your embodied connection with your voice."
+      - text: "These are offered on a sliding scale; get in touch to discuss further. Zoom sessions are available, as are in-person - located in Providence, RI, or the Boston, MA area."
+
+  testimonials:
+    section: "Testimonials"
+    list:
+      - text: "I was very fortunate to work with Brianna in her capacity as VMT practitioner. I felt immediately safe in her presence, I sensed an unconditional acceptance of anything I brought to the session in Brianna's joining in with (mirroring) me with body movements and voice - her loving presence made me know that whatever expression came from me was good and welcome. I felt her calm and reassurance throughout. Because of all this, it felt easy and effortless to access deep material within myself and I got very powerful insights about myself and my desires, about how I yearned to grow in my life. I was amazed how much value I got from just one session! I walked away with plenty of insight, full of love for myself (and Brianna! ) and confidence that I could live into what I touched upon in the session."
+
+  contact:
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

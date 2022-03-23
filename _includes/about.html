@@ -1,0 +1,16 @@
+<!-- About -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <img class="img-fluid d-block mx-auto" src="./assets/bri.jpg"></img>
+      </div>
+      <div class="col-lg-6 mx-auto text-left">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body_2 | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
